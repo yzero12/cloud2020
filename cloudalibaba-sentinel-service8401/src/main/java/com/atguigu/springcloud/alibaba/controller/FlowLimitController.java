@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class FlowLimitController {
 
     @GetMapping("/testA")
+    @SentinelResource(value = "testA")
     public String testA() {
         return "------testA";
     }
