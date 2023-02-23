@@ -1,7 +1,6 @@
 package com.atguigu.springcloud.alibaba.service;
 
 import com.atguigu.springcloud.alibaba.domain.Order;
-import org.apache.ibatis.annotations.Param;
 
 /**
  * @author zjzstart

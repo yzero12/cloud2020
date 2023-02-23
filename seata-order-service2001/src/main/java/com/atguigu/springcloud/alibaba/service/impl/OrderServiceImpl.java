@@ -29,7 +29,7 @@ public class OrderServiceImpl implements OrderService {
     private AccountService accountService;
 
     @Override
-//    @GlobalTransactional(name = "fsp-create-order",rollbackFor = Exception.class)
+    @GlobalTransactional(name = "fsp-create-order",rollbackFor = Exception.class)
     public void create(Order order) {
 
         //创建订单
